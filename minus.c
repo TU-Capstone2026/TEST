@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-int main()
+int minus(int a, int b)
 {
-    int i;
+    if(a >= b)
+    {
+        return a-b;
+    }
+    return b - a;
 }
