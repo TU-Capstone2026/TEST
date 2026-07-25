@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-int main() {
+int plus() {
     int a, b;
     printf("Enter two integers: ");
     scanf("%d %d", &a, &b);
