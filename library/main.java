@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // 모든 파일에서 공유할 도서 리스트 생성
@@ -15,7 +15,7 @@ public class Main {
         boolean isRunning = true;
 
         while (isRunning) {
-            System.out.println("\n=== 📚 도서 관리 프로그램 ===");
+            System.out.println("\n=== 도서 관리 프로그램 ===");
             System.out.println("1. 도서 등록");
             System.out.println("2. 전체 목록 조회");
             System.out.println("3. 도서 검색");
