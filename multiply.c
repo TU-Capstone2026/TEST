@@ -1,13 +1,17 @@
 #include <stdio.h>
+#include "calculator.h"
 
-int main(int argc, char *argv[])
+int multiply(int first_num, int second_num)
 {
-    int first_num, second_num, result;
-    printf("input two numbers : ");
-    scanf("%d %d", &first_num, &second_num);
+    return first_num * second_num;
+}
 
-    result = first_num * second_num;
-    printf("result : %d\n", result);
+/*
+모듈 테스트용 main func
 
+int main(void)
+{
+    printf("%d\n", multiply(3, 4));
     return 0;
 }
+*/
