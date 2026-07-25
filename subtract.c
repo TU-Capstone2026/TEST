@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "calculator.h"
 
-int minus(int a, int b)
+int subtract(int a, int b)
 {
     if(a >= b)
     {
